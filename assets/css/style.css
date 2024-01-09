@@ -191,13 +191,15 @@ nav li a:hover {
     text-decoration: none;
 }
 
-#about-me {
+/* #about-me {
     height: 15%;
     margin: 5px;
     padding: 5px;
     color: #2E54DE;
     text-decoration: none;
-}
+} */
+
+
 
 #about-me p {
     text-decoration: none;
