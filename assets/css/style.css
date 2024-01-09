@@ -92,9 +92,7 @@ nav li a:hover {
     height: 100vh;
     float: right;
     width: 75%;
-    margin-left: 10px 5px;
     font-family: montserrat;
-    text-decoration: none;
 }
 
 .sidebar-container {
@@ -143,17 +141,14 @@ nav li a:hover {
 }
 
 .project1 img {
-    width: 90%;
-    height: 40%;
+    width: 100%;
+    height: 350px;
     border: #2E54DE 3px solid;
 }
 
-
-
-/* .project1 img:hover {
-    transition: .25s ease;
-    color: aqua;
-} */
+.project1 img:hover {
+    filter: brightness(110%);
+}
 
 #work .project1 {
     position: relative;
@@ -161,6 +156,7 @@ nav li a:hover {
 
 #work .project1 p {
     position: relative;
+    display: inline-block;
     bottom: 80px;
     background-color: #2E54DE;
     width: 30%;
@@ -171,38 +167,33 @@ nav li a:hover {
 
 .project2 img {
     float: left;
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 110px;
     border: #2E54DE 3px solid;
 }
 
-#work .project2 {
+.project3 img {
     position: relative;
+    float: right;
+    width: 45%;
+    height: 110px;
+    border: #2E54DE 3px solid;
 }
 
-#work .project2 p {
-    position: relative;
-    top: 60px;
-    bottom: 20px;
-    background-color: #2E54DE;
-    width: 30%;
-    padding: 6px;
-    color: #F2E3D5;
-    text-decoration: none;
+.project3 img:hover {
+    filter: brightness(110%);
 }
 
-/* #about-me {
+#about-me {
     height: 15%;
     margin: 5px;
     padding: 5px;
     color: #2E54DE;
     text-decoration: none;
-} */
-
-
+}
 
 #about-me p {
-    text-decoration: none;
+
 }
 
 #work {
@@ -232,7 +223,6 @@ nav li a:hover {
 }
 
 #contact ul li a {
-    list-style-type: none;
     display: inline;
     color: #2E54DE;
     text-decoration: none;
@@ -263,6 +253,7 @@ footer a {
         justify-content: center;
         font-family: brownv;
         color: #2E54DE;
+        font-size: 30px;
     }
 
     nav {
@@ -288,7 +279,6 @@ footer a {
         padding: 5px 50px;
         color: #FFF5F4;
         text-decoration: none;
-        /* border-right: 1px solid #fff; */
         transition: .8s ease;
         font-family: brownv;
         font-size: 18px;
@@ -299,6 +289,19 @@ footer a {
         color: #2E54DE;
         background: #FFF5F4;
         transition: .25s ease;
+    }
+
+}
+
+@media only screen and (max-width: 381px) {
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: brownv;
+        color: #2E54DE;
+        font-size: 30px;
     }
 
 }
